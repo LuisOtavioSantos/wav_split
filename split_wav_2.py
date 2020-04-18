@@ -23,5 +23,5 @@ def read_n_split_wav(wavpath, splitPath, start_time, stop_time):
     # sf.write((SPLIT_PATH + myWav.name), signal[int(start_time):int(stop_time)], sample_rate)
 
 if __name__ == "__main__":
-    read_n_split_wav(WAV_PATH, SPLIT_PATH, 36.588, 39.668)
+    read_n_split_wav(WAV_PATH, SPLIT_PATH, start_in_seconds, end_in_seconds)
     print('Done')
