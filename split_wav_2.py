@@ -7,8 +7,8 @@ import numpy as np
 import math
 
 
-WAV_PATH = '/home/luis/Downloads/DAIC_WOZ_DATABASE/todos_wavs/300_AUDIO.wav'
-SPLIT_PATH = '/home/luis/Downloads/DAIC_WOZ_DATABASE/splited_files/300_AUDIO.wav'
+WAV_PATH = '/home/PATH/.../AUDIO.wav'
+SPLIT_PATH = '/home/PATH/.../AUDIO.wav'
 final_wav = []
 
 def read_n_split_wav(wavpath, splitPath, start_time, stop_time):
